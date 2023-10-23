@@ -1,93 +1,77 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Portfolio Site</title>
-  /* link rel="stylesheet" href="style.css */
-
-  <style>
-    /* Styles would go here */
-header {
-  background: #333;
-  color: white;
-  padding: 20px;
-}
-
-nav a {
-  color: white;
-  margin-right: 20px; 
-}
-
-/* Other sections, formatting etc */
-
-footer {
-  background: #333;
-  color: white;
-  padding: 10px;
-  text-align: center;
-}
-  </style>
-</head>
-<body>
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	  <link rel="icon" href="assets/icons/favicon.ico">
+	  <link rel="stylesheet" href="assets/style.css">
+		<title>Elias Mengesha</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css          /font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?display=swap&amp;family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;family=Source+Sans+Pro:ital,wght@0,200;0,400;0,900;1,200;1,400;1,900" rel="stylesheet" type="text/css">
+  </head>
   
-  <header>
-    <h1>Your Name</h1>
-    <nav>
-      <a href="#">About</a> 
-      <a href="#">Projects</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-  
-  <main>
-  
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Add a short bio here...</p>
-    </section>
-    
-    <section id="projects">
-    
-      <h2>Projects</h2>
-    
-      <div class="project">
-        <img src="project1.jpg">
-        <h3>Project 1</h3>
-        <p>Description...</p>
-        <div class="tags">
-          <span>HTML</span> 
-          <span>CSS</span>
-        </div>  
+  <body class="is-loading">
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="assets/pages/projects.html">Projects</a>
+      <a href="assets/pages/about.html">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div id="wrapper">
+      <div id="main">
+        <div class="inner">
+          <section id="home-section">
+            <div id="columns03" class="container default">
+              <div class="wrapper">
+                <div class="inner">
+                  <h1 id="text03">Elias Mengesha</h1>
+                  <hr id="divider04">
+                  <p id="text09">Data Analyst</p>
+                  <ul id="icons01" class="icons">
+                    <li><a class="n01" href="mailto:eliasmengesha2@gmail.com" target="_blank" aria                        -label="Email"><img src="assets/icons/email.jpg"><span class="label">Email                     </span></a></li>
+                    <li><a class="n02" href="https://github.com/e1iasm" target="_blank" aria-label                         ="GitHub"><img src="assets/icons/github.jpg"><span class="label">GitHub                       </span></a></li>
+                    <li><a class="n03" href="https://www.linkedin.com/in/elias-mengesha/" target                        ="_blank" aria-label="LinkedIn"><img src="assets/icons/linkedin.jpg"><span                      class="label">LinkedIn</span></a></li>
+                  </ul>
+                  <p id="text17">
+                    👋 Friendly data analyst passionate about making a positive impact. Skilled in                      data tools and effective communication. Excited to use data to improve                             people's lives.
+                  </p>
+                  <ul class="buttons">
+                    <li>
+                      <a href="assets/pages/projects.html" class="button-25">
+                        <span>See my work </span>
+                      </a>
+                  </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer id="footer">
+            <hr id="divider02">
+            <div id="columns04" class="container default">
+              <div class="wrapper">
+                <div class="inner">
+                  <p id="text04">© 2023 Elias Mengesha. All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+            <div id="credits" class="icc-credits"><span><a href="https://carrd.co/build?ref=auto"                 >Designed by Carrd</a></span>
+            </div>
+          </footer>
+        </div>
       </div>
-      
-      <!-- More project items -->
-      
-    </section>
-        
-    <section id="contact">
-      <h2>Contact</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name">
-        
-        <label for="email">Email:</label> 
-        <input type="email" id="email">
-      
-        <label for="message">Message:</label>
-        <textarea id="message"></textarea>
-        
-        <button type="submit">Submit</button>
-      </form>  
-    </section>
-    
-  </main>
-
-  <footer>
-    <p>&copy; Your Name</p>
-    <ul>
-      <li><a href="https://github.com">GitHub</a></li>
-      <li><a href="https://linkedin.com">LinkedIn</a></li>
-    </ul>
-  </footer>
-
-</body>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
 </html>

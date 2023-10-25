@@ -36,6 +36,7 @@ I will review the pull request and merge it if it aligns with the goals and purp
 If you have any questions, feedback, or would like to get in touch with me, you can reach me through the following channels:
 
 - Email: [eliasmengesha2@gmial.com](mailto:eliasmengesha2@gmial.com)
+- GitHub: [e1iasm](https://github.com/e1iasm)
 
 
 Feel free to explore the website and get in touch if you find any issues or have suggestions for improvement.

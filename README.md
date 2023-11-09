@@ -1,6 +1,6 @@
 # e1iasm.github.io
 
-This repository contains the source code for my personal portfolio website, where I showcase my personal projects.
+This repository contains the source code for my portfolio website, where I showcase my personal projects.
 
 ## About
 

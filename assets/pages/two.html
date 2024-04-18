@@ -8,53 +8,85 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link href="https://fonts.googleapis.com/css2?display=swap&amp;family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;family=Source+Sans+Pro:ital,wght@0,200;0,400;0,900;1,200;1,400;1,900" rel="stylesheet" type="text/css">
   </head>
-  
+
     <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SR0EBNQ7S4"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-  
+
     gtag('config', 'G-SR0EBNQ7S4');
   </script>
-  
+
   <body>
     <div id="wrapper">
       <div id="main">
         <div class="inner">
-          <section id="three-section">
+          <section id="one-section">
             <ul class="buttons">
-              <li><a href="../pages/projects.html#citibike" class="button-25">Back</a></li>
+              <li><a href="../pages/projects.html#conflict" class="button-25">Back</a></li>
             </ul>
-            <p id="text01">Who rides the most?</p>
-            <hr id="divider01">
-            <div id="image04" class="image">
-              <span class="frame"><img src="../images/whorm.png" alt="" /></span>
+            <p id="text12">Understanding Political Violence in Ethiopia</p>
+            <hr id="divider07">
+            <div id="image06" class="image">
+              <span class="frame deferred"><img src="../images/1999.png" alt="" /></span>
             </div>
-              <p id="text06">
-                <strong>Project Goal</strong><br /> To better understand the behavior of Citi                       Bike’s customer base (both one-time users and subscribers) and how they use Citi                   Bikes.
-              </p>
-              <p id="text06">
-              <strong>Excel features utilized:</strong><br /> ● Pivot tables
-              <br /> ● Filtering and Sorting Data
-              <br /> ● Excel Tables
-              <br /> ● Functions
-              </p>
-              <div id="image04" class="image">
-                <span class="frame"><img src="../images/top5.png" alt="" /></span>
-              </div>
-              <p id="text06">
-                <strong>Key findings</strong><br /> ● Top 5 pick-up locations for bikes:<br /> ○                    Grove St Path, Exchange Place, Sip Ave, Hamilton Park, &amp; Morris Canal<br />                   ● Customer base<br /> ○ Most of the customers are between the ages 25-54 and are                   long-term subscribers<br /> ● Citi Bike customer behavior<br /> ○ 75+ customers                   take the longest trips on average while 65-74 take the shortest</p>
-              <p id="text06"><strong>Recommended actions</strong><br /> ● Product recommendations<                 <br /> ○ Install more bikes at Grove St Path, Exchange Place, Sip Ave, Hamilton                   Park, &amp; Morris Canal.<br /> ● Marketing recommendations<br /> ○ The Citi Bike                 customer base is mostly long-term subscribers aged between 25-64, who are most                    active on weekdays. This tells us that they are probably people who live in New                   York and use Citi Bikes to commute. Marketing and advertising campaigns should                    therefore target this particular demographic.</p>
-              <p id="text06">
-                <em>*If you want to explore this project in its entirety, check out                                 its GitHub repository </em>
-                <a href="https://github.com/e1iasm/NY-Citi-Bike-Analysis" target="_blank">
-                  <em>here</em></a>
-              </p>
-            </section>
-            <footer id="footer">
-            <hr id="divider02">
+            <p id="text13">
+              This project is dear to me. As an Ethiopian, having a first-hand interaction with the conflicts
+              happening in the country, I have always wanted to understand its dynamics, objectively. But, due
+              to the lack of data related to it, and also the one-sided reports that are out there, I wasn't
+              able to.
+            </p>
+            <p id="text13">
+              So, you can't imagine how happy I was when I got the chance to work on it in collaboration with Selam Gebretsadik
+              (my LinkedIn friend and co-owner of this project). After working on this exciting project for a while, we were able to create
+              a notebook containing detailed analysis (link at the end of this post).
+            </p>
+            <p id="text13">
+              We first started the preliminary analysis using Excel, and, actually, Selam was the first one who found the
+              outlier shooting at 1999 (you can see the image above). After a simple Google search, we found out that it was
+              the casualties due to Eritrean–Ethiopian War, a bloody incidence which costed both countries significantly.
+              <b>18839</b> dead in that year alone (1999, the war lasted for more than 2 years).
+            </p>
+            <p id="text13">
+              <strong>Tools used:</strong><br /> ● Excel for initial exploration<br /> ● Python                for further analysis and visualization<br />
+            </p>
+            <div id="image06" class="image"><span class="frame deferred">
+              <img src="../images/code1.png" alt="" /></span>
+            </div>
+            <p id="text13">
+              The above code generates the chart below.
+            </p>
+            <div id="image06" class="image"><span class="frame deferred">
+              <img src="../images/battle.png" alt="" /></span>
+            </div>
+          </p>
+          <p id="text13">
+            Finally, we did the comprehensive analysis using python (Selam did it in R, but yeah). We got the
+            results below.
+          </p>
+          <p id="text13">
+            <strong>Key Findings</strong>
+            <br /> - Conflict events in Ethiopia are not uniform and exhibit regional disparities. Regions like Oromia and Amhara consistently experience higher frequencies of conflict.
+            <br /> - Urban centers, including the capital city Addis Ababa, and specific towns like Lideta and Jigjiga, are focal points for political events.
+            <br /> - Examining trends over time reveals fluctuations, suggesting a dynamic socio-political landscape.</p>
+          <p id="text13"> <strong>Top 3 recommendations</strong>
+            <br /> 1. Implement a robust monitoring system, especially in high-conflict regions, to promptly identify and respond to emerging issues.
+          <br /> 2.
+            Foster community engagement and dialogue to address underlying issues contributing to conflict, emphasizing local context.
+          <br /> 3.
+            Implement targeted security measures in urban centers to mitigate the impact of conflict events, especially in capital regions.</p>
+          <p id="text13">
+            <span class="p">
+              <em>*If you want to explore this project in its entirety, check out its GitHub                      repository </em>
+              <a href="https://github.com/e1iasm/Conflict-in-Ethiopia"
+                  target="_blank">
+                <em>here</em></a></span>
+          </p>
+        </section>
+        <footer id="footer">
+          <hr id="divider02">
             <div id="columns04" class="container default">
               <div class="wrapper">
                 <div class="inner">

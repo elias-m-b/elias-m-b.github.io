@@ -8,7 +8,7 @@ This website serves as a platform for me to display my skills, projects, and ach
 
 ## Usage
 
-To view the website, simply visit [e1iasm.github.io](https://e1iasm.github.io/). The website is publicly accessible and can be accessed from any web browser.
+To view the website, simply visit [elias-m-b.github.io](https://elias-m-b.github.io/). The website is publicly accessible and can be accessed from any web browser.
 
 ## Repository Structure
 
@@ -35,8 +35,8 @@ I will review the pull request and merge it if it aligns with the goals and purp
 
 If you have any questions, feedback, or would like to get in touch with me, you can reach me through the following channels:
 
-- Email: [eliasmengesha2@gmial.com](mailto:eliasmengesha2@gmial.com)
-- GitHub: [e1iasm](https://github.com/e1iasm)
+- Email: [elias.m.berhe@gmial.com](mailto:elias.m.berhe@gmial.com)
+- GitHub: [elias-m-b](https://github.com/elias-m-b)
 
 
 Feel free to explore the website and get in touch if you find any issues or have suggestions for improvement.
